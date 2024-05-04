@@ -1,0 +1,146 @@
+	
+	body {
+		background-image: url("sample1.gif");
+		background-repeat: no-repeat;
+		background-size: 1400px 600px;
+		overflow: hidden;
+		margin: 0;
+		animation: fadeInAnimation ease-in-out 1s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+	}
+	
+	@keyframes fadeInAnimation {
+		0% {
+			opacity: 0.4;
+		}
+		100% {
+			opacity: 1;
+		}
+	}	
+	
+	.login {
+		position: absolute;
+		display: block;
+	}
+	
+	.navbar {
+		top: 10px;
+		left: 590px;
+		position: fixed;
+	}
+	
+	.navbar img {
+		width: 40px;
+		transition: 0.3s;
+	}
+	
+	.navbar img:hover {
+		filter: drop-shadow(0 0 1px #E09100);
+	}
+	
+	.header {
+		position: fixed;
+		left: 495px;
+		top: 50px;
+	}
+	
+	.header #h1 {
+		font-family: Bluerabbit;
+		font-size: 75px;
+		color: #E09100;
+		text-shadow: 0 0 5px black;
+	}
+	
+	.input {
+		position: fixed;
+		top: 250px;
+		left: 400px;
+	}
+	
+	.input input {
+		font-family: Alte Haas Grotesk;
+		border-radius: 3px;
+		border-style:ridge;
+		border-color: #E09100;
+		padding: 5px;
+		width: 98%;
+		height: 25px;
+		box-shadow: 0 0 2px #333;
+	}
+	
+	.input input:focus {
+		border-style: solid;
+		border-left-color: white;
+		border-right-color: white;
+		border-top-color: white;
+		border-bottom-color: #E09100;
+		background-color: white;
+		box-shadow: 0 0 5px #55555;
+		outline: none;
+	}
+	
+	.input label {
+		font-family: Adam Medium;
+		font-size: 18px;
+		color: 	ivory;
+		text-shadow: 0 0 2px #333;
+	}
+	
+	.input #fp {
+		font-family: Adam Medium;
+		font-size: 10px;
+		color: 	ivory;
+		text-shadow: 0 0 2px #333;
+		text-decoration: none;
+		margin-left: 350px;
+	}
+	
+	.sign {
+		position: fixed;
+		top: 450px;
+		left: 570px;
+	}
+	
+	.sign #btn {
+		text-decoration: none;
+	}
+	
+	.sign button {
+		font-family: Typo Round Regular Demo;
+		font-size: 18px;
+		background-color: #E09100;
+		border-radius: 8px;
+		border-width: 0;
+		color: #f9e9cc;
+		padding: 5px 10px;
+		outline: none;
+		transition: 0.3s;
+	}
+	
+	.sign button:hover {
+		background-color: #810801;
+		text-shadow: 0 0 2px #333;
+	}
+	
+	.register {
+		position: fixed;
+		left: 480px;
+		bottom: 0;
+	}
+	
+	.register p {
+		font-family: Typo Round Regular Demo;
+		font-size: 15px;
+		color: ivory;
+		text-shadow: 0 0 2px #333;
+	}
+	
+	#reg {
+		color: #E09100;
+		transition: 0.3s;
+	}
+	
+	#reg:hover {
+		filter: drop-shadow(0 0 5px #E09100);
+	}

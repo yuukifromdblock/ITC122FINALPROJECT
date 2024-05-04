@@ -1,0 +1,154 @@
+	
+	body {
+		background-image: url("sample1.gif");
+		background-repeat: no-repeat;
+		background-size: 1400px 600px;
+		overflow: hidden;
+		margin: 0;
+		animation: fadeInAnimation ease-in 1s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+	}
+	
+	@keyframes fadeInAnimation {
+		0% {
+			opacity: 0.2;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+	
+	.signup {
+		position: absolute;
+		display: block;
+	}
+	
+	.navbar {
+		margin: 10px 590px;
+		position: fixed;
+	}
+	
+	.navbar img {
+		width: 40px;
+		transition: 0.3s;
+	}
+	
+	.navbar img:hover {
+		filter: drop-shadow(0 0 1px #E09100);
+	}
+	
+	.header {
+		position: fixed;
+		margin-left: 450px;
+		margin-top: 50px;
+	}
+	
+	.header #h1 {
+		font-family: Bluerabbit;
+		font-size: 75px;
+		color: #E09100;
+		text-shadow: 0 0 5px black;
+	}
+	
+	.input {
+		position: fixed;
+		top: 230px;
+		left: 470px;
+	}
+	
+	.input input {
+		font-family: Alte Haas Grotesk;
+		font-size: 13px;
+		border-style: solid;
+		border-left-color: white;
+		border-right-color: white;
+		border-top-color: white;
+		border-bottom-color: #E09100;
+		border-radius: 3px;
+		padding: 5px;
+		width: 175%;
+		height: 15px;
+		box-shadow: 0 0 2px #333;
+		margin-bottom: 8px;
+	}
+	
+	.input input:focus {
+		border-style:ridge;
+		border-color: #E09100;
+		box-shadow: 0 0 5px #55555;
+		outline: none;
+	}
+	
+	.terms {
+		position: fixed;
+		top: 422px;
+		left: 495px;
+	}
+	
+	.terms input {
+		position: fixed;
+		top: 430px;
+		left: 475px;
+	}
+	
+	.terms #actsafe {
+		font-family: Adam Medium;
+		font-size: 12px;
+		color: 	ivory;
+		text-shadow: 0 0 2px #333;
+	}
+	
+	#actsafe a {
+		color: 	#E09100;
+	}
+	
+	.sign {
+		position: fixed;
+		top: 475px;
+		left: 570px;
+	}
+	
+	.sign #btn {
+		text-decoration: none;
+	}
+	
+	.sign button {
+		font-family: Typo Round Regular Demo;
+		font-size: 18px;
+		background-color: #E09100;
+		border-radius: 8px;
+		border-width: 0;
+		color: #f9e9cc;
+		padding: 5px 10px;
+		outline: none;
+	}
+	
+	.sign button:hover {
+		background-color: #810801;
+		text-shadow: 0 0 2px #333;
+	}
+	
+	.login {
+		position: fixed;
+		left: 480px;
+		bottom: 0;
+	}
+	
+	.login p {
+		font-family: Typo Round Regular Demo;
+		font-size: 15px;
+		color: ivory;
+		text-shadow: 0 0 2px #333;
+	}
+	
+	#log {
+		color: #E09100;
+		transition: 0.3s;
+	}
+	
+	#log:hover {
+		filter: drop-shadow(0 0 5px #E09100);
+	}
+	
+	

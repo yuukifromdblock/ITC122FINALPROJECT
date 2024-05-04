@@ -1,0 +1,798 @@
+	body {
+		background-color: #e9e9e8;
+		position: relative;
+		overflow-x: hidden;
+		margin: 0;
+		animation: body ease-in-out 2s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+	}
+	
+											@keyframes body {
+												0% {
+													opacity: 0;
+												}
+												100% {
+													opacity: 1;
+												}
+											}
+	
+	.navbar {
+		background-color: #f4ae01;
+		width: 100%;
+		height: 75px;
+		box-shadow: 0 0 3px #333;
+		position: relative;
+		top: 0;
+	}
+	
+	.navbar a {
+		text-decoration: none;
+	}
+	
+	#logo {
+		position: absolute;
+		animation: logo ease-in-out 1.5s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+	}
+	
+											@keyframes logo {
+													0% {
+														margin-top: -50px;
+														margin-left: 555px;
+													}
+													100% {
+														margin-top: 15px;
+														margin-left: 555px;
+													}
+												}
+	
+	#logo img {
+		width: 200px;
+	}
+	
+	#search {
+		position: absolute;
+		animation: search ease-in-out 1.5s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+	}
+	
+											@keyframes search {
+													0% {
+														margin-top: 18px;
+														margin-left: -50px;
+													}
+													100% {
+														margin-top: 18px;
+														margin-left: 30px;
+													}
+												}
+	
+	#search input[type = text] {
+		font-family: Alte Haas Grotesk;
+		font-size: 13px;
+		background-color: ivory;
+		padding: 12px 20px 12px 40px;
+		
+		border-width: 2px;
+		border-style: solid;
+		border-color: #810801;
+		border-radius: 10px;
+		
+		height: 10px;
+		width: 325px;
+		outline: none;
+		
+		transition: 0.2s ease-in-out;
+		
+	}
+	
+	#search input[type = text]:focus {
+		box-shadow: 0 0 2px black;
+	}
+	
+	#ss {
+		position: absolute;
+		animation: ss ease-in-out 1.5s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+	}
+	
+											@keyframes ss {
+													0% {
+														margin-top: 18px;
+														margin-left: -50px;
+														transform: rotate(0deg);
+													}
+													100% {
+														margin-top: 22px;
+														margin-left: 38px;
+														transform: rotate(180deg);
+													}
+												}
+	
+	#ss img {
+		width: 25px;
+		cursor: pointer;
+		transition: 0.5s ease-in-out;
+	}
+	
+	#ss img:hover {
+		transform: rotate(180deg);
+	}
+	
+	
+	#log {
+		position: absolute;
+		animation: log ease-in-out 1.5s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+	}
+	
+											@keyframes log {
+													0% {
+														margin-top: 20px;
+														margin-left: 1200px;
+													}
+													100% {
+														margin-top: 20px;
+														margin-left: 980px;
+													}
+												}
+	
+	#log img {
+		width: 31px;
+		position: absolute;
+		transition: 0.3s ease-in-out;
+	}
+	
+	#log img:hover{
+		filter: drop-shadow(0 0 1px #3f0500);
+	}
+	
+	#l {
+		font-family: Alte Haas Grotesk;
+		font-size: 13px;
+		color: black;
+		position: absolute;
+		top: 10px;
+		left: 40px;
+	}
+	
+	#cart {
+		position: absolute;
+		animation: cart ease-in-out 1.5s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+	}
+	
+											@keyframes cart {
+													0% {
+														margin-top: 20px;
+														margin-left: 1300px;
+													}
+													100% {
+														margin-top: 20px;
+														margin-left: 1111px;
+													}
+												}
+	
+	#cart img {
+		width: 31px;
+		position: absolute;
+		transition: 0.3s ease-in-out;
+	}
+	
+	#cart img:hover{
+		filter: drop-shadow(0 0 1px #3f0500);
+	}
+	
+	#cart #c {
+		font-family: Alte Haas Grotesk;
+		font-size: 13px;
+		color: black;
+		position: absolute;
+		top: 10px;
+		left: 40px;
+	}
+	
+	.navbar2 {
+		background-color: #e29003;
+		box-shadow: 0 0 3px black;
+		border-radius: 50px;
+		
+		position: fixed;
+		top: -30px;
+		left: 50px;
+		
+		width: 90%;
+		height: 75px;
+		
+		z-index: -1;
+	}
+	
+	.nv2 {
+		position: absolute;
+		margin-top: 40px;
+	}
+	
+	.nv2 a {
+		font-family: Bluerabbit;
+		text-decoration: none;
+		font-size: 22px;
+		color: black;
+		margin-left: 50px;
+		margin-right: 20px;
+		transition: 0.3s;
+	}
+	
+	.nv2 a:hover {
+		text-shadow: 0 0 1px black;		
+	}
+	
+	.cc {
+		position: absolute;
+		margin-top: 40px;
+		margin-left: 1055px;
+	}
+	
+	.cc img {
+		width: 25px;
+	}
+	
+	#ll {
+		margin-left: -25px;
+	}
+	
+	#cc {
+		margin-left: 15px;
+	}
+	
+	
+	#homie {
+		font-family: Bluerabbit;
+		text-shadow: 0 0 1px #810801;
+		color: #810801;
+	}
+	
+	#homie:hover {
+		text-shadow: 0 0 1px #810801;
+	}
+	
+	.baba {
+		background-color: #f4ae01;
+		border-top-color: black;
+		border-top-width: 1px;
+		border-top-style: solid;
+		
+		position: relative;
+		top: 2200px;
+		bottom: 0;
+		width: 100%;
+		
+		height: 350px;
+		z-index: -1;
+	}
+	
+	.baba a {
+		text-decoration: none;
+	}
+	
+	.payment {
+		position: absolute;
+		left: 1122px;
+		top: 10px;
+	}
+	
+	.payment img {
+		width: 40px;
+	}
+	
+	.company {
+		position: absolute;
+		left: 10px;
+		top: 10px;
+	}
+	
+	.company img {
+		width: 50px;
+	}
+	
+	.POLICIES {
+		position: absolute;
+		left: 175px;
+		top: 75px;
+	}
+	
+	.POLICIES #pol {
+		font-family: Bluerabbit;
+		font-size: 25px;
+	}
+	
+	.POLICIES a {
+		font-family: Alte Haas Grotesk;
+		font-size: 13px;
+		color: black;
+	}
+	
+	.POLICIES a:hover {
+		color: #810801;
+	}
+	
+	.CONTACT {
+		position: absolute;
+		left: 500px;
+		top: 75px;
+	}
+	
+	.CONTACT #get {
+		font-family: Bluerabbit;
+		font-size: 25px;
+	}
+	
+	.CONTACT img {
+		width: 20px;
+		margin-top: 3px;
+		margin-right: 10px;
+	}
+	
+	.CONTACT img:hover {
+		filter: drop-shadow(0 0 5px black)
+	}
+	
+	.CONTACT a {
+		font-family: Alte Haas Grotesk;
+		font-size: 13px;
+		color: black;
+	}
+	
+	.CONTACT a:hover {
+		color: #810801;
+	}
+	
+	.STORE {
+		position: absolute;
+		left: 875px;
+		top: 75px;
+	}
+	
+	.STORE #our {
+		font-family: Bluerabbit;
+		font-size: 25px;
+	}
+	
+	.STORE p {
+		font-family: Alte Haas Grotesk;
+		font-size: 13px;
+		color: black;
+	}
+	
+	.copyright {
+		position: absolute;
+		left: 500px;
+		top: 300px;
+	}
+	
+	.copyright p {
+		font-family: Adam Medium;
+		font-size: 13px;
+		color: #810801;
+	}
+	
+	.home {
+		position: relative;
+		z-index: -2;
+	}
+	
+	.first {
+		top: 75px;
+		left: 565px;
+	}
+	
+	.first img {
+		width: 700px;
+		float: right;
+	}
+	
+	.announcement {
+		position: absolute;
+		animation: announcement ease-in-out 1.5s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+	}
+	
+												@keyframes announcement {
+													0% {
+														margin-top: 50px;
+														margin-left: -300px;
+													}
+													100% {
+														margin-top: 50px;
+														margin-left: 30px;
+													}
+												}
+	
+	#head {
+		font-family: Adam Medium;
+		font-size: 15px;
+		letter-spacing: 8px;
+		font-weight: 700;
+	}
+	
+	#tt {
+		font-family: OptimusPrincepsSemiBold;
+		font-size: 50px;
+	}
+	
+	#desc {
+		font-family: LEMON MILK Light;
+		font-size: 15px;
+		line-height: 30px;
+		word-spacing: 2px;
+		
+		position: absolute;
+		top: 225px;
+		
+	}
+	
+	.announcement button {
+		font-family: Typo Round Regular Demo;
+		font-size: 20px;
+		font-weight: bold;
+		background-color: #E09100;
+		border-radius: 5px;
+		border-width: 0;
+		padding: 5px 10px;
+		cursor: pointer;
+		color: ivory;
+		position: absolute;
+		top: 360px;
+	}
+	
+	.announcement button:hover {
+		color: #810801;
+		text-shadow: 0 0 2px #3e0400;
+	}
+	
+	.marquee {
+		background-color: #810801; 
+		height: 30px;
+		padding: 5px;
+		
+		position:absolute;
+		top: 525px;
+	}
+
+	#off {
+		font-family: Neue Haas Grotesk Display Pro;
+		font-weight: bold;
+		font-size: 25px;
+		color: #f4ae01;
+		margin-top: -2px;
+	}
+	
+	.home1 {
+		position: relative;
+		top: 600px;
+		left: 50px;
+		z-index: -2;
+	}
+	
+	.arrive {
+		position: absolute;
+	}
+	
+	#na {
+		font-family: Adam Medium;
+		font-weight: 800;
+		font-size: 30px;
+		color: black;
+	}
+	
+	#va {
+		font-family: Adam Medium;
+		font-size: 15px;
+		color: #f4ae01;
+		margin-left: 900px;
+		transition: 0.3s ease-in-out;
+	}
+	
+	#va:hover {
+		color: #810801;
+	}
+	
+	.arrival {
+		position: absolute;
+	}
+	
+	.arrival a {
+		text-decoration: none;
+	}
+	
+	.arrival button {
+		font-family: Typo Round Regular Demo;
+		font-size: 20px;
+		font-weight: bold;
+		color: ivory;
+		text-shadow: 0 0 1px #3e0400;
+		
+		background-color: #f4ae01;
+		border: none;
+		border-radius: 2px;
+		
+		cursor: pointer;
+		width: 275px;
+		padding: 5px;
+		box-shadow: 0px 0px 3px #9d6600;
+		transition: 0.2s ease-in-out;
+	}
+	
+	.arrival button:hover {
+		color:  #3e0400;
+		box-shadow: 0px 0px 5px black;
+	}
+	
+	.arrival img{
+		width: 275px;
+		border-radius: 3px;
+		margin-bottom: 5px;
+		box-shadow: 0px 0px 2px black;
+		transition: 0.1s ease-in-out;
+	}
+	
+	.arrival img:hover{
+		box-shadow: 5px 10px 20px black;
+	}
+	
+	#name {
+		font-family: Neue Haas Grotesk Display Pro;
+		font-size: 13px;
+		color: black;
+	}
+	
+	#price {
+		font-family: LEMON MILK Light;
+		font-size: 15px;
+		font-weight: bold;
+		color: black;
+	}
+	
+	.arrival #p1 {
+		position: absolute;
+		left: 0px;
+		top: 100px;
+	}
+	
+	#p1 button {
+		position: absolute;
+		left: 0px;
+		top: 350px;
+	}
+	
+	.arrival #p2 {
+		position: absolute;
+		left: 300px;
+		top: 100px;
+	}
+	
+	#p2 button {
+		position: absolute;
+		left: 0px;
+		top: 350px;
+	}
+	
+	.arrival #p3 {
+		position: absolute;
+		left: 600px;
+		top: 100px;
+	}
+	
+	#p3 button {
+		position: absolute;
+		left: 0px;
+		top: 350px;
+	}
+	
+	.arrival #p4 {
+		position: absolute;
+		left: 900px;
+		top: 100px;
+	}
+	
+	#p4 button {
+		position: absolute;
+		left: 0px;
+		top: 350px;
+	}
+	
+	.arrival #p5 {
+		position: absolute;
+		left: 0px;
+		top: 550px;
+	}
+	
+	#p5 button {
+		position: absolute;
+		left: 0px;
+		top: 350px;
+	}
+	
+	.arrival #p6 {
+		position: absolute;
+		left: 300px;
+		top: 550px;
+	}
+	
+	#p6 button {
+		position: absolute;
+		left: 0px;
+		top: 350px;
+	}
+	
+	.arrival #p7 {
+		position: absolute;
+		left: 600px;
+		top: 550px;
+	}
+	
+	#p7 button {
+		position: absolute;
+		left: 0px;
+		top: 350px;
+	}
+	
+	.arrival #p8 {
+		position: absolute;
+		left: 900px;
+		top: 550px;
+	}
+	
+	#p8 button {
+		position: absolute;
+		left: 0px;
+		top: 350px;
+	}
+	
+	.chatus {
+		position: fixed;
+		animation: chat ease-in-out 1s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+	}
+	
+											@keyframes chat {
+												0% {
+													margin-top: 600px;
+													margin-left: 1175px;
+													opacity: 0.5;
+												}
+												100% {
+													margin-top: 440px;
+													margin-left: 1175px;
+													opacity: 1;
+												}
+											}
+	
+	.chatus img {
+		width: 50px;
+		filter: drop-shadow(0 0 3px black);
+		transition: 0.2s ease-in-out;
+	}
+	
+	.chatus img:hover{
+		margin-top: -5px;
+		margin-left: -5px;
+		width: 55px;
+	}
+	
+	.home2 {
+		position: relative;
+		top: 1600px;
+		left: 50px;
+		z-index: -2;
+	}
+	
+	.gear {
+		position: absolute;
+	}
+	
+	#ggg {
+		font-family: Adam Medium;
+		font-weight: 800;
+		font-size: 30px;
+		color: black;
+	}
+	
+	.thegears {
+		position: absolute;
+	}
+	
+	.thegears a {
+		text-decoration: none;
+	}
+	
+	.thegears button {
+		font-family: Typo Round Regular Demo;
+		font-size: 20px;
+		font-weight: bold;
+		color: ivory;
+		text-shadow: 0 0 1px #3e0400;
+		
+		background-color: #f4ae01;
+		border: none;
+		border-radius: 2px;
+		
+		cursor: pointer;
+		width: 275px;
+		padding: 5px;
+		box-shadow: 0px 0px 3px #9d6600;
+		transition: 0.2s ease-in-out;
+	}
+	
+	.thegears button:hover {
+		color:  #3e0400;
+		box-shadow: 0px 0px 5px black;
+	}
+	
+	.thegears img{
+		width: 275px;
+		border-radius: 3px;
+		margin-bottom: 5px;
+		box-shadow: 0px 0px 2px black;
+		transition: 0.1s ease-in-out;
+	}
+	
+	.thegears img:hover{
+		box-shadow: 5px 10px 20px black;
+	}
+	
+	#name {
+		font-family: Neue Haas Grotesk Display Pro;
+		font-size: 13px;
+		color: black;
+	}
+	
+	#price {
+		font-family: LEMON MILK Light;
+		font-size: 15px;
+		font-weight: bold;
+		color: black;
+	}
+	
+	.thegears #p1 {
+		position: absolute;
+		left: 0px;
+		top: 100px;
+	}
+	
+	#p1 button {
+		position: absolute;
+		left: 0px;
+		top: 350px;
+	}
+	
+	.thegears #p2 {
+		position: absolute;
+		left: 300px;
+		top: 100px;
+	}
+	
+	#p2 button {
+		position: absolute;
+		left: 0px;
+		top: 350px;
+	}
+	
+	.thegears #p3 {
+		position: absolute;
+		left: 600px;
+		top: 100px;
+	}
+	
+	#p3 button {
+		position: absolute;
+		left: 0px;
+		top: 350px;
+	}
